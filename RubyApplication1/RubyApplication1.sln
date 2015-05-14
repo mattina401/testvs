@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3EF0E601-A88F-4504-97D7-836C4DAEC7E5}") = "RubyApplication1", "RubyApplication1\RubyApplication1.stproj", "{6E09B5BD-9806-4495-B523-57C46DFB52C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E09B5BD-9806-4495-B523-57C46DFB52C0}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{6E09B5BD-9806-4495-B523-57C46DFB52C0}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{6E09B5BD-9806-4495-B523-57C46DFB52C0}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{6E09B5BD-9806-4495-B523-57C46DFB52C0}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

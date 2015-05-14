@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>3.0</ProductVersion>
+    <ProjectGuid>2a3805c0-4ecf-40c4-8378-35728f68fce3</ProjectGuid>
+    <RailsActionView>
+      <Include>ActionView::Helpers::ActiveRecordHelper</Include>
+      <Include>ActionView::Helpers::AssetTagHelper</Include>
+      <Include>ActionView::Helpers::DateHelper</Include>
+      <Include>ActionView::Helpers::FormHelper</Include>
+      <Include>ActionView::Helpers::FormOptionsHelper</Include>
+      <Include>ActionView::Helpers::FormTagHelper</Include>
+      <Include>ActionView::Helpers::JavaScriptHelper</Include>
+      <Include>ActionView::Helpers::NumberHelper</Include>
+      <Include>ActionView::Helpers::PaginationHelper</Include>
+      <Include>ActionView::Helpers::TagHelper</Include>
+      <Include>ActionView::Helpers::UrlHelper</Include>
+    </RailsActionView>
+    <RailsDebugScript>script\rails</RailsDebugScript>
+    <RubyInterpreter>C:\RailsInstaller\Ruby1.9.3\bin\ruby.exe</RubyInterpreter>
+    <RubyType>Ruby 1.9.3</RubyType>
+    <SapphireProjectType>Rails</SapphireProjectType>
+    <ServerPort>
+    </ServerPort>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Ruby1.rb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SapphireSteel Software\Sapphire_3_$(VisualStudioVersion)\Sapphire.targets" />
+</Project>
